@@ -1,0 +1,25 @@
+/* Grid Styles */
+ul.grid{
+  margin-top: 50px;
+  overflow: hidden;
+  padding: 0;
+}
+
+ul.grid li {
+  /* float: left; */
+  display: inline-block;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+ul.grid li img {
+  width: 200px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+/* When width is < 640px */
+ul.grid li img:nth-child(even) {
+  margin-right: 0;
+}
+/* Card Styles */
