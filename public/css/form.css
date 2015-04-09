@@ -5,7 +5,7 @@ div.overlay {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: hsla(359, 0%, 9%, .5);
+  background-color: hsla(359, 0%, 9%, .8);
   display: none;
   opacity: 0;
   z-index: 1;
@@ -16,7 +16,9 @@ div.overlay {
 section.form {
   opacity: 0;
   transition: opacity 2s;
-  position:relative;
+  /*bases positioning of the viewport*/
+  position: fixed;
+  top: 0;
   z-index: 9000;
 }
 
@@ -63,7 +65,7 @@ div.show, section.show {
 	font-weight: bold;
 	font-size: 70.25%;
 	-webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;

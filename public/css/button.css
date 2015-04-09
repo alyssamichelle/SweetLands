@@ -13,6 +13,7 @@
   height: 1.3em;
 
   /*User can't highlight the text*/
+  /* Alyssa here add prefixes*/
   user-select: none;
 
   /* Button Color Transition */
